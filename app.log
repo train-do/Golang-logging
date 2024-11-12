@@ -1,0 +1,5 @@
+{"L":"INFO","T":"2024-11-13T05:10:29.141+0700","M":"http request middleware","url":"/dashboard","duration":"504.5µs"}
+{"L":"INFO","T":"2024-11-13T05:10:31.119+0700","M":"Request /books"}
+{"L":"INFO","T":"2024-11-13T05:10:31.164+0700","M":"http request middleware","url":"/books","duration":"44.7711ms"}
+{"L":"ERROR","T":"2024-11-13T05:10:33.499+0700","M":"Error Repo Book","query":"INSERT INTO \"Book\" (book_code, title, type, author, price, discount) VALUES ($1, $2, $3, $4, $5, $6) returning id, book_code"}
+{"L":"INFO","T":"2024-11-13T05:10:33.499+0700","M":"http request middleware","url":"/addBook","duration":"1.3589ms"}
